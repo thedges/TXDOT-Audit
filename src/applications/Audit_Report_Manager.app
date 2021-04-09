@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>X1200pxTXDOTsvg</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Audit Report Manager</label>
+    <navType>Console</navType>
+    <tabs>Sub_Recipient_Entity__c</tabs>
+    <tabs>Audit_Report__c</tabs>
+    <tabs>Entity__c</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Audit_Report_Manager_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Audit_Report__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Entity__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sub_Recipient_Entity__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-report</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
