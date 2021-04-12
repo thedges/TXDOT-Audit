@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>X1200pxTXDOTsvg</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
         <members>Audit_Report_Manager</members>
         <name>CustomApplication</name>
     </types>
@@ -32,6 +36,10 @@
     <types>
         <members>Audit_Report__c.Task</members>
         <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Task.Task</members>
+        <name>RecordType</name>
     </types>
     <version>50.0</version>
 </Package>
