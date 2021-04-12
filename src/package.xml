@@ -37,5 +37,9 @@
         <members>Audit_Report__c.Task</members>
         <name>QuickAction</name>
     </types>
+    <types>
+        <members>Task.Task</members>
+        <name>RecordType</name>
+    </types>
     <version>50.0</version>
 </Package>
