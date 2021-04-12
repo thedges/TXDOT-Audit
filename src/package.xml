@@ -17,6 +17,7 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Audit_Report_Manager_UtilityBar</members>
         <members>Audit_Report_Record_Page</members>
         <members>Sub_Recipient_Entity_Record_Page</members>
         <members>Sub_Recipient_Entity_Record_Page1</members>
@@ -27,6 +28,10 @@
         <members>Entity__c-Entity Layout</members>
         <members>Sub_Recipient_Entity__c-Sub Recipient Entity Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Audit_Report__c.Task</members>
+        <name>QuickAction</name>
     </types>
     <version>50.0</version>
 </Package>
